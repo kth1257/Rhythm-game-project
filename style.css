@@ -1,0 +1,63 @@
+@font-face {
+        font-family: '770Balsa';
+        src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2505-1@1.0/770Balsa.woff2') format('woff2');
+        font-weight: normal;
+        font-style: normal;
+      }
+
+:root {
+  --header-font: '770Balsa';
+}
+
+
+
+.bg-container {
+  width: 1000px;
+  height: auto;
+  background: black;
+  color: white;
+  text-align: center;
+  font-family: var(--header-font);
+  padding: 20px;
+}
+
+.bg-container > h1 {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.note-container {
+  position: relative;
+  height: 700px;
+  width: 100%;
+  overflow: hidden;
+  /* box-shadow: 0 0 20px fuchsia; */
+}
+.note {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 30px);
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: yellow;
+}
+
+.arrow-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+}
+
+.arrow {
+  width: 60px;
+  height: 60px;
+  font-size: 40px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px #00f;
+}
